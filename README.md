@@ -55,7 +55,6 @@ lib/
 │   ├── cubit/                    # Custom reusable cubits
 │   ├── errors/                   # App-wide exception and failure classes
 │   ├── platform/                 # MethodChannel-based native service
-│   ├── services/                 # Networking layer
 │   ├── usecases/                # Shared base usecase
 │   ├── routes_manager.dart      # Centralized route generation
 │   ├── service_locator.dart     # DI container setup with GetIt

@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
 
-import '../../errors/exceptions.dart';
+import '../errors/exceptions.dart';
 import 'api_consumer.dart';
 
 class DioConsumer implements ApiConsumer {

@@ -2,7 +2,7 @@ import 'dart:developer';
 
 import 'package:dio/dio.dart';
 
-import '../../errors/exceptions.dart';
+import '../errors/exceptions.dart';
 import 'status_code.dart';
 
 dynamic handelDioError(DioException error) {

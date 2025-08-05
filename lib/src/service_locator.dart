@@ -1,14 +1,14 @@
 import 'package:dio/dio.dart';
-import 'package:floward_task/src/services/api/endpoints.dart';
+import 'package:floward_task/src/api/endpoints.dart';
 import '/features/weather/data/datasources/weather_remote_datasource.dart';
 import '/features/weather/data/repositories/weather_repository_impl.dart';
 import '/features/weather/domain/repositories/weather_repository.dart';
 import '/features/weather/domain/usecases/get_weather_condition_usecase.dart';
 import 'package:get_it/get_it.dart';
 
-import 'services/api/api_consumer.dart';
-import 'services/api/dio_consumer.dart';
-import 'services/api/handel_dio_error.dart';
+import 'api/api_consumer.dart';
+import 'api/dio_consumer.dart';
+import 'api/handel_dio_error.dart';
 
 final sl = GetIt.instance;
 

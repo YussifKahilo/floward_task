@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
 import 'package:floward_task/features/weather/data/models/weather_item_model.dart';
-import 'package:floward_task/src/services/api/api_consumer.dart';
-import 'package:floward_task/src/services/api/endpoints.dart';
+import 'package:floward_task/src/api/api_consumer.dart';
+import 'package:floward_task/src/api/endpoints.dart';
 
 abstract interface class WeatherRemoteDatasource {
   Future<WeatherItemModel> getWeather(String city);
